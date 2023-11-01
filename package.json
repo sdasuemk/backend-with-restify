@@ -1,0 +1,29 @@
+{
+  "name": "be-restify",
+  "version": "1.0.0",
+  "description": "learning restify for backend (node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "restify",
+    "mongoose",
+    "JWT",
+    "mongodb",
+    "nodemon",
+    "node.js"
+  ],
+  "author": "Soumya",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.0.0",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^11.1.0",
+    "restify-error": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
