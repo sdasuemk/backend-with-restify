@@ -18,6 +18,7 @@ db.on('error', (err) => console.error(err));
 
 db.once('open', () =>{
     require('./routes/customers')(server);
+    require('./routes/users')(server);
     console.log('Mongodb is connected');
     console.log('Server listening on port '+config.PORT);
 });
