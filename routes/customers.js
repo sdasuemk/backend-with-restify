@@ -1,5 +1,5 @@
 const errors = require("restify-error");
-const Customer = require("../models/Customers");
+const Customer = require("../models/Customer");
 module.exports = (server) => {
   //GET /customers
   server.get("/customers", async (req, res) => {
